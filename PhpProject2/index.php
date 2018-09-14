@@ -10,10 +10,33 @@ and open the template in the editor.
         <title>proyect</title>
     </head>
     <body>
-        <h1>
-          <?php
-            echo 'hello world';
-          ?>
-        <h1>  
+        
+        <p>
+            <?php
+            $g=5;
+            $f=2;
+            $lenguaje="java";
+            if($g>1)
+            {
+                echo 'soy menor';
+            }
+            else{
+                echo 'soy mayor';
+            }
+            switch ($lenguaje)
+            {
+                case "php":
+                    echo 'php';
+                    break;
+                case "java":
+                    echo 'java';
+                    break;
+                case "html":
+                    echo 'html';
+                    break;
+            }
+                echo "otra seccion";  
+            ?>
+        </p>
     </body>
 </html>
