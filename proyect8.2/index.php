@@ -47,10 +47,18 @@ and open the template in the editor.
         <h1>
             <pre>
                 <h3>
-                    <?php
+                    <?php 
+                
+                
                         print_r($arreglo);
                         echo '<br>';
+                        
                         var_dump($arreglo);
+                        echo '<br>';
+                        $dato = array_pop($arreglo)
+                        
+                            
+                        
                     ?>
                 </h3>
             </pre>
