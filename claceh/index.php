@@ -45,6 +45,17 @@ and open the template in the editor.
         }
         $a = sumar(2,5);
         echo 'suma: '. $a;
+        //acceder a variable globales desde funcion
+        echo '<br>'.'<br>'.'<br>';
+        $agnda=array();
+        function agendar($nombre,$te)
+        {
+            global $agnda;
+            $agnda[]=$nombre;
+            $agnda[]=$te;
+        }
+        agendar("felipe",545);
+        print_r($agnda);
         ?>
      </pre>
     </body>
