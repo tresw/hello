@@ -37,6 +37,14 @@ and open the template in the editor.
         }
         $nombre = ['dffdf','fddffd','dfdfdf','dfdfd'];
         h($nombre,561);
+        echo '<br>'.'<br>'.'<br>';
+        function sumar($num1,$num2)
+        {
+            $total = $num1 + $num2;
+            return $total;
+        }
+        $a = sumar(2,5);
+        echo 'suma: '. $a;
         ?>
      </pre>
     </body>
